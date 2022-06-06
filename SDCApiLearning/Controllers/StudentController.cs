@@ -7,10 +7,11 @@ namespace SDCApiLearning.Controllers
     public class StudentController : ControllerBase 
     {
         [Route("GetAllStudent")]
-        public IActionResult GetStudentList()
+        public IActionResult GetStudentList(int id=0)
         {
             StudentContext con=new StudentContext();
-            var data=con.GetStudentList();
+            //var data=con.GetStudentList();
+            var data = con.GetStudentDatasFromDB(id);
 
             return Ok(data);
         }

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "UXRTp5YRYQQK0pDiQ2dNHbjzW2xsNCpYWZN7NwZ7m4z9m4l2wNyOr0Xab1tcXyaSAv7Gr0OSoKYUFJ4Ny+8UUQ==",
+  "dgSpecHash": "z6Uxo3rX83zm0rIfdjyy735eSzb8yvMPeSUxpA23oK93tw/Fms8REwWmhLzpJzHz0KtRqm26aD8t1zaKHcRx3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\krnka\\source\\repos\\SDCApiLearning\\SDCApiLearning\\SDCApiLearning.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\krnka\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\krnka\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
+    "C:\\Users\\krnka\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\krnka\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\krnka\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\krnka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

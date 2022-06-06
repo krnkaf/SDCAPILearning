@@ -17,3 +17,8 @@ C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\obj\Debug\netcoreapp3.
 C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\obj\Debug\netcoreapp3.1\SDCApiLearning.dll
 C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\obj\Debug\netcoreapp3.1\SDCApiLearning.pdb
 C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\obj\Debug\netcoreapp3.1\SDCApiLearning.genruntimeconfig.cache
+C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\krnka\source\repos\SDCApiLearning\SDCApiLearning\obj\Debug\netcoreapp3.1\SDCApiLearning.csproj.CopyComplete
