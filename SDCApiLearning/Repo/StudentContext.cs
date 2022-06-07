@@ -51,6 +51,30 @@ namespace SDCApiLearning.Repo
             return Data;
         }
 
+        public void InsertIntoStudent(StudentData data)
+        {
+            using (var connection = CreateConnection())
+            {
+                connection.Execute(@"
+INSERT INTO public.student(
+	id, name)
+	VALUES (@id, @name);
+", data);
+            }
+        }
+
+        public void UpdateStudent(StudentData data)
+        {
+            using (var connection = CreateConnection())
+            {
+                connection.Execute(@"
+UPDATE public.student
+	SET  name=@name
+	WHERE id=@id;
+", data);
+            }
+        }
+
         public NpgsqlConnection CreateConnection()
         {
             var conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=sdc;User Id=postgres;Password=12345;");
