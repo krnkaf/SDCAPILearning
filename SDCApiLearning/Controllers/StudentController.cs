@@ -18,14 +18,11 @@ namespace SDCApiLearning.Controllers
             return Ok(data);
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("Create")]
-        public IActionResult Create()
+        public IActionResult Create([FromBody]StudentData data)
         {
-            var data = new StudentData {
-                id=5,
-                name="hari"
-            };
+            
             StudentContext s = new StudentContext();
             s.InsertIntoStudent(data);
             return Ok(data);
