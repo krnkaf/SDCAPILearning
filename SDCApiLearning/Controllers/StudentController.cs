@@ -42,6 +42,16 @@ namespace SDCApiLearning.Controllers
             return Ok(data);
         }
 
+        [HttpGet]
+        [Route("LoadAllData")]
+        public IActionResult LoadAllData()
+        {
+            
+            StudentContext s = new StudentContext();
+            var res=s.LoadAllData();
+            return Ok(res);
+        }
+
 
     }
 }

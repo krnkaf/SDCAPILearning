@@ -8,6 +8,28 @@ namespace SDCApiLearning.Repo
 {
     public class StudentContext
     {
+        public Dictionary<string,object> LoadAllData()
+        {
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            using (var connection = CreateConnection())
+            {
+                //Gender
+                //Subject
+                var reader=connection.QueryMultiple(@"
+select * from subject;
+
+select * from gender;
+");
+
+                var subject_data = reader.Read<SubjectData>().ToList();
+                var gender_data = reader.Read<GenderData>().ToList();
+
+                data.Add("subject",subject_data);
+                data.Add("gender",gender_data);
+
+            }
+            return data;
+        }
         public List<StudentData> GetStudentList()
         {
             //DB Connect
