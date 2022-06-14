@@ -1,0 +1,10 @@
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\bin\Debug\netcoreapp3.1\Registration.deps.json
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\bin\Debug\netcoreapp3.1\Registration.dll
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\bin\Debug\netcoreapp3.1\Registration.pdb
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.csproj.AssemblyReference.cache
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.AssemblyInfoInputs.cache
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.AssemblyInfo.cs
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.csproj.CoreCompileInputs.cache
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.dll
+C:\Users\krnka\source\repos\SDCApiLearning\Registration\obj\Debug\netcoreapp3.1\Registration.pdb
